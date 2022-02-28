@@ -1,0 +1,51 @@
+*{scroll-behavior: smooth;}
+
+nav {background: #061a2f;}
+
+img.icon {border-radius: 49%;}
+
+footer {background: #061a2f;
+color: white;
+}
+
+
+
+a.grey { color: #808080;}
+a.grey:hover {	color: white; }
+
+.space {min-height: 50px;}
+
+.carousel-img {
+    height: 50%;
+	opacity: 1;
+}
+
+
+.row-content-header {min-height: 50px;}
+.font1 {font-size: 20px;}
+
+button.img1 {margin-top: 3%;}
+
+
+@keyframes glow {
+	0% {text-shadow: 0 0 4px white}
+	100% {text-shadow: 0 0 15px white}
+}
+
+
+
+@media (max-width: 768px) {
+	.img1 {margin-left: 5%;
+		margin-top: 2%;}
+}
+
+@media (max-width: 768px) {.font1 {font-size: 16px;}}
+
+
+
+
+
+
+
+
+
